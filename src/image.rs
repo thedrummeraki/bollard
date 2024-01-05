@@ -373,6 +373,8 @@ where
     /// `dockerfile` parameter is also specified, there must be a file with the corresponding path
     /// inside the tarball.
     pub remote: T,
+    /// Specify the build target.
+    pub target: Option<String>,
     /// Suppress verbose build output.
     pub q: bool,
     /// Do not use the cache when building the image.

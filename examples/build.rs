@@ -24,6 +24,7 @@ async fn main() {
         remote:
             "https://raw.githubusercontent.com/docker-library/openjdk/master/11/jdk/slim/Dockerfile",
         q: false,
+        target: None,
         nocache: false,
         cachefrom: vec![],
         pull: true,
